@@ -1,2 +1,7 @@
 overviewer:
+  build: .
   container_name: overviewer
+  volumes:
+    - "./world:/world"
+  ports:
+    - "5000:80"
