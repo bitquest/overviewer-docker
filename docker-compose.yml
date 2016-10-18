@@ -1,6 +1,8 @@
 overviewer:
   build: .
   container_name: overviewer
+  environment:
+    - SERVER_NAME=Example
   volumes:
     - "./world:/world"
   ports:

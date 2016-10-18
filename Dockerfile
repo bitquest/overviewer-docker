@@ -22,4 +22,5 @@ RUN wget https://s3.amazonaws.com/Minecraft.Download/versions/1.10/1.10.jar -P ~
 RUN rm -rf /var/www/html/*
 COPY mini.py /overviewer/
 COPY shot.sh /overviewer/
+COPY config.py /overviewer/
 CMD service nginx start

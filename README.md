@@ -17,5 +17,5 @@ The example docker-compose.yml included in this repo will spawn a server in http
 
 To create (or update the map) you must run
 ```
-docker exec -it overviewer ./overviewer.py /world/ /var/www/html/
+docker exec -it overviewer ./overviewer.py --config=config.py
 ```
