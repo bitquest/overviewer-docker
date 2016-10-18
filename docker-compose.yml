@@ -3,6 +3,7 @@ overviewer:
   container_name: overviewer
   environment:
     - SERVER_NAME=Example
+    - SIZE=256
   volumes:
     - "./world:/world"
   ports:
