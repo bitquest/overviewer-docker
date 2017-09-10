@@ -19,7 +19,7 @@ renders["mini"] = {
     "title": "Small",
     "dimension": "overworld",
     "rendermode": "normal",
-    'crop': (-1000, -1000, 1000, 1000),
+    'crop': (-2000, -2000, 2000, 2000),
     "imgformat": "png"
 }
 
