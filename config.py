@@ -10,17 +10,25 @@ renders["overworld"] = {
     "rendermode": "normal",
     'crop': (size*-1, size*-1, size, size),
     "imgformat": "jpg",
-    "defaultzoom":6,
-    "minzoom":2
-}
+    "imgquality":80,
+    "optimizeimg":[jpegoptim(quakity=80)],
+    "defaultzoom":5,
+    "minzoom":4,
+    "maxzoom":6,
+    "texturepath": "/root/.minecraft/versions/1.13.2/1.13.2.jar"
+    }
 
 renders["mini"] = {
     "world": os.environ['SERVER_NAME'],
     "title": "Small",
     "dimension": "overworld",
     "rendermode": "normal",
-    'crop': (-2000, -2000, 2000, 2000),
-    "imgformat": "png"
+    'crop': (-512, -512, 512, 512),
+    "minzoom":4,
+    "maxzoon":4,
+    "imgformat": "png",
+    "optimizeimg":[pngnq(sampling=1), optipng(olevel=3)],
+    "texturepath": "/root/.minecraft/versions/1.13.2/1.13.2.jar"
 }
 
 
