@@ -11,7 +11,6 @@ renders["overworld"] = {
     'crop': (size*-1, size*-1, size, size),
     "imgformat": "jpg",
     "imgquality":80,
-    "optimizeimg":[jpegoptim(quakity=80)],
     "defaultzoom":5,
     "minzoom":4,
     "maxzoom":6,
@@ -27,7 +26,6 @@ renders["mini"] = {
     "minzoom":4,
     "maxzoon":4,
     "imgformat": "png",
-    "optimizeimg":[pngnq(sampling=1), optipng(olevel=3)],
     "texturepath": "/root/.minecraft/versions/1.13.2/1.13.2.jar"
 }
 
