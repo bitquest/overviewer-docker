@@ -24,7 +24,7 @@ renders["mini"] = {
     "rendermode": "normal",
     'crop': (-512, -512, 512, 512),
     "minzoom":4,
-    "maxzoon":4,
+    "maxzoom":4,
     "imgformat": "png",
     "texturepath": "/root/.minecraft/versions/1.13.2/1.13.2.jar"
 }
