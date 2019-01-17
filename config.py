@@ -11,9 +11,9 @@ renders["overworld"] = {
     'crop': (size*-1, size*-1, size, size),
     "imgformat": "jpg",
     "imgquality":80,
-    "defaultzoom":5,
-    "minzoom":4,
-    "maxzoom":6,
+    "defaultzoom":7,
+    "minzoom":5,
+    "maxzoom":7,
     "texturepath": "/root/.minecraft/versions/1.13.2/1.13.2.jar"
     }
 
